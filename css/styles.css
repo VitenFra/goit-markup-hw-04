@@ -76,7 +76,7 @@ img {
 }
 
 .footer {
-  width: 1600px;
+  
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2F303A;
@@ -87,6 +87,8 @@ img {
 /* navigation */
 
 .site-nav {
+  height: 16px;
+  width: 294px;
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -106,8 +108,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  padding-top: 20px;
-  padding-bottom: 20px;
+
 }
 
 .site-nav_li {
@@ -127,6 +128,7 @@ img {
 .navigation {
   display: flex;
   align-items: center;
+  height: 31px;
 }
 /* mail,phone */
 
@@ -327,7 +329,7 @@ margin-top: 0px;
 }
 
 .our_team_sec{
-  max-width: 1600px;
+  
   padding-bottom: 94px;
   padding-top: 94px;
   background-color: #F5F4FA;
@@ -336,6 +338,7 @@ margin-top: 0px;
 }
 
 .our_team_names_descrip {
+  background-color: #ffffff;
 padding-top: 30px;
 padding-bottom: 30px;
 border-radius: 4px;
@@ -458,6 +461,8 @@ margin: 0px;
 
  /*regular clients */
  .regular_cli {
+
+   padding-top: 94px;
    padding-bottom: 94px;
  }
 .our_regular_cli {
@@ -572,7 +577,8 @@ color: var(--tagline-text-color);
     margin-right: 10px;
     
   }
-  .inst_footer:focus {
+  .inst_footer:focus,
+  .inst_footer:hover {
     background-color: var(--subsidiary-color);
     fill:#ffffff;
   }
@@ -582,7 +588,7 @@ color: var(--tagline-text-color);
     display: inline-flex;
     width: 44px;
     height: 44px;
-    background-color: var(--subsidiary-color);
+    background-color: #FFFFFF1A;
     align-items:center;
     justify-content: center;
     border-radius: 50%;
@@ -591,7 +597,8 @@ color: var(--tagline-text-color);
   .twitr_footer {
     margin-right: 10px;
   }
-  .twit_footer:focus {
+  .twit_footer:focus,
+  .twit_footer:hover {
     background-color: var(--subsidiary-color);
     fill:#ffffff;
   }
@@ -611,7 +618,8 @@ color: var(--tagline-text-color);
     margin-right: 10px;
   }
   
-  .face_footer:focus{
+  .face_footer:focus,
+  .face_footer:hover {
     background-color: var(--subsidiary-color);
     fill:#ffffff;
   }
@@ -632,7 +640,8 @@ color: var(--tagline-text-color);
     margin-right: 32px;
   }
   
-  .linin_footer:focus{
+  .linin_footer:focus,
+  .linin_footer:hover {
     background-color: var(--subsidiary-color);
     fill:#ffffff;
   }
@@ -673,7 +682,7 @@ color: var(--tagline-text-color);
 }
 .lis_of_work_li:hover {
   box-shadow: 0px 4px 4px 0px #00000040;
-  border: 1px solid #EEEEEE;
+  
 }
 
 
